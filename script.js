@@ -61,9 +61,7 @@ function calculateResult() {
   var typeTo = document.getElementById("type-2").value;
   var inputFrom = document.getElementById("input1").value;
   var inputTo = document.getElementById("input2");
-  console.log(
-    convType + " " + typeFrom + " " + typeTo + " " + inputFrom + " " + inputTo
-  );
+
   if (convType == "Length") {
     var result = Number(inputFrom);
     if (typeFrom != "Meter") {
