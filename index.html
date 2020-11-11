@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Conversion Site</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Conversion Calculator</h1>
+    <br>
+    <form>
+      <label>Choose type of conversion: </label>
+      <select id="conv-type" onchange="updateTypes()">
+        <option value="Length">Length</option>
+        <option value="Time">Time</option>
+        <option value="Mass">Mass</option>
+      </select>
+    </form>
+    <br>
+    <form>
+      <input id="input1" onchange="calculateResult()" value="1.0"> =
+      <input id="input2" readonly>
+    </form>
+    <br>
+    <form>
+      <select id="type-1" onchange="calculateResult()">
+      </select>
+      <select id="type-2" onchange="calculateResult()">
+      </select>
+    </form>
+  </div>
+</body>
+
+</html>
