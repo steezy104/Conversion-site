@@ -1,0 +1,13 @@
+html {
+  background-color: #68b6ff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
