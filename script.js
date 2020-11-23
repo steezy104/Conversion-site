@@ -11,7 +11,14 @@ let conversionTypes = {
     "Foot",
     "Inch"
   ],
-  Time: ["Second", "Minute", "Hour", "Day", "Month", "Year"],
+  Time: [
+    "Second", 
+    "Minute", 
+    "Hour", 
+    "Day", 
+    "Month", 
+    "Year"
+  ],
   Mass: [
     "Ounce",
     "Pound",
